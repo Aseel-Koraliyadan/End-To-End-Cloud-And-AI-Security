@@ -40,9 +40,10 @@ The following Azure services were utilized to architect the security controls in
 
 ## Lab Curriculum
 
-### Domain 01: Identity, Access & Governance [In Progress (1/12)]
+### Domain 01: Identity, Access & Governance [In Progress (2/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
+| 01 | Privileged Identity Management (PIM) | Just-In-Time Access |
 | 02 | Conditional Access Policies | Zero Trust Enforcement |
 
 ### Roadmap: Future Domains [Planned 🚀]
