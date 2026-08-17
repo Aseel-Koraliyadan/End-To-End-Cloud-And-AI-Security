@@ -40,13 +40,14 @@ The following Azure services were utilized to architect the security controls in
 
 ## Lab Curriculum
 
-> **Publishing in progress** — this portfolio is released incrementally, **2 labs per weekday (Mon–Fri)**. Check back daily to follow the build-out of each security domain.
+### Domain 01: Identity, Access & Governance [In Progress (1/12)]
+| Lab # | Lab Name | Focus Area |
+| :--- | :--- | :--- |
+| 02 | Conditional Access Policies | Zero Trust Enforcement |
 
 ### Roadmap: Future Domains [Planned 🚀]
 | Domain | Focus Area |
 | :--- | :--- |
-| 01 | **Identity, Access & Governance** (PIM, Conditional Access, Passwordless, Key Vault, RBAC) |
-| 02 | **Storage, Databases & Networking** (Storage Security, SQL Security, NSG/ASG, Virtual WAN, Private Link, Firewall) |
 | 03 | **Secure Compute & AI Workload Security** (AKS, Container Security, Azure OpenAI, Model Inferencing) |
 | 04 | **Security Posture, Threat Protection & SecOps** (Defender CSPM, Microsoft Sentinel SIEM/SOAR) |
 
