@@ -40,7 +40,7 @@ The following Azure services were utilized to architect the security controls in
 
 ## Lab Curriculum
 
-### Domain 01: Identity, Access & Governance [In Progress (9/12)]
+### Domain 01: Identity, Access & Governance [In Progress (10/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 01 | Privileged Identity Management (PIM) | Just-In-Time Access |
@@ -52,6 +52,7 @@ The following Azure services were utilized to architect the security controls in
 | 07 | Key Vault Deployment & Config | Secrets Infrastructure |
 | 08 | Key Vault Keys & Certificates | Cryptography Lifecycle |
 | 09 | Defender for Key Vault | Secret Scanning/CSPM |
+| 10 | Azure Policy for Security | Guardrails |
 
 ### Roadmap: Future Domains [Planned 🚀]
 | Domain | Focus Area |
