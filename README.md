@@ -56,10 +56,11 @@ The following Azure services were utilized to architect the security controls in
 | 11 | RBAC & Governance | Compliance |
 | 12 | Backup, Locks & IaC Security | Data Resiliency |
 
-### Domain 02: Storage, Databases & Networking [In Progress (1/12)]
+### Domain 02: Storage, Databases & Networking [In Progress (2/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 13 | Storage Account Security | Data-at-Rest Protection |
+| 14 | Defender for Storage | Threat Protection |
 
 ### Roadmap: Future Domains [Planned 🚀]
 | Domain | Focus Area |
