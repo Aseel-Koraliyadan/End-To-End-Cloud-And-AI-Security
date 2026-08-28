@@ -40,6 +40,8 @@ The following Azure services were utilized to architect the security controls in
 
 ## Lab Curriculum
 
+> **Publishing in progress** - this portfolio is released incrementally, **2 labs per weekday (Mon-Fri)**. Check back daily to follow the build-out of each security domain.
+
 ### Domain 01: Identity, Access & Governance [Completed ✅]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
@@ -56,7 +58,7 @@ The following Azure services were utilized to architect the security controls in
 | 11 | RBAC & Governance | Compliance |
 | 12 | Backup, Locks & IaC Security | Data Resiliency |
 
-### Domain 02: Storage, Databases & Networking [In Progress (6/12)]
+### Domain 02: Storage, Databases & Networking [In Progress (7/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 13 | Storage Account Security | Data-at-Rest Protection |
@@ -65,14 +67,7 @@ The following Azure services were utilized to architect the security controls in
 | 16 | Defender for Databases | Database Threat Intel |
 | 17 | NSGs & ASGs | Network Segmentation |
 | 18 | Azure Virtual Network Manager | Centralized Governance |
-
-### Roadmap: Future Domains [Planned 🚀]
-| Domain | Focus Area |
-| :--- | :--- |
-| 03 | **Secure Compute & AI Workload Security** (AKS, Container Security, Azure OpenAI, Model Inferencing) |
-| 04 | **Security Posture, Threat Protection & SecOps** (Defender CSPM, Microsoft Sentinel SIEM/SOAR) |
-
----
+| 19 | Virtual WAN & VPN Security | Hub/Spoke/S2S/P2S |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
