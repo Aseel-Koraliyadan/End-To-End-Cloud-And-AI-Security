@@ -58,7 +58,7 @@ The following Azure services were utilized to architect the security controls in
 | 11 | RBAC & Governance | Compliance |
 | 12 | Backup, Locks & IaC Security | Data Resiliency |
 
-### Domain 02: Storage, Databases & Networking [In Progress (7/12)]
+### Domain 02: Storage, Databases & Networking [In Progress (8/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 13 | Storage Account Security | Data-at-Rest Protection |
@@ -68,6 +68,7 @@ The following Azure services were utilized to architect the security controls in
 | 17 | NSGs & ASGs | Network Segmentation |
 | 18 | Azure Virtual Network Manager | Centralized Governance |
 | 19 | Virtual WAN & VPN Security | Hub/Spoke/S2S/P2S |
+| 20 | Entra Private Access | ZTNA/Application Proxy |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
