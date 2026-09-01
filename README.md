@@ -58,7 +58,7 @@ The following Azure services were utilized to architect the security controls in
 | 11 | RBAC & Governance | Compliance |
 | 12 | Backup, Locks & IaC Security | Data Resiliency |
 
-### Domain 02: Storage, Databases & Networking [In Progress (11/12)]
+### Domain 02: Storage, Databases & Networking [Completed ✅]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 13 | Storage Account Security | Data-at-Rest Protection |
@@ -72,6 +72,7 @@ The following Azure services were utilized to architect the security controls in
 | 21 | Private Endpoints for PaaS | Network Isolation |
 | 22 | Private Link Services | Service Exposure |
 | 23 | Azure Firewall Premium | Traffic Inspection |
+| 24 | Network Watcher Diagnostics | Observability/Forensics |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
