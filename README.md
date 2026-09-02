@@ -74,10 +74,11 @@ The following Azure services were utilized to architect the security controls in
 | 23 | Azure Firewall Premium | Traffic Inspection |
 | 24 | Network Watcher Diagnostics | Observability/Forensics |
 
-### Domain 03: Secure Compute & AI Workload Security [In Progress (1/13)]
+### Domain 03: Secure Compute & AI Workload Security [In Progress (2/13)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 25 | Securing Microsoft 365 Copilot (Purview & DSPM) | DSPM/Purview Controls |
+| 26 | Copilot Studio Real-Time Protection | AI Agent Governance |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
