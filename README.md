@@ -85,6 +85,8 @@ The following Azure services were utilized to architect the security controls in
 | 30 | Data and AI Security Monitoring | AI Visibility |
 | 31 | VM Disk Encryption & Secure Boot | Compute Encryption |
 | 32 | Azure Bastion & JIT VM Access | Zero-Trust Management |
+| 33 | Azure ARC Defender Servers | Hybrid/Multicloud |
+| 34 | Agentless Scanning Enforcement | Vulnerability/Baseline |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
