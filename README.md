@@ -32,17 +32,21 @@ The following Azure services were utilized to architect the security controls in
 
 | Category | Services & Tools |
 | :--- | :--- |
-| **Identity & Access** | Microsoft Entra ID (PIM, Conditional Access, App Registrations, Managed Identities, RBAC), Azure Key Vault |
-| **Network Security** | VNet, NSG, ASG, AVNM, Virtual WAN, VPN (S2S/P2S), Azure Firewall Premium, Private Link/Endpoints, Network Watcher |
-| **Data & Storage** | Azure Storage Accounts, Azure SQL Database |
-| **Threat Protection** | Microsoft Defender for Cloud (Storage, Databases, Key Vault), Microsoft Sentinel, Log Analytics |
+| **Identity & Access** | Microsoft Entra ID (PIM, Conditional Access, Access Reviews, Workload Identities, App Registrations, Enterprise Applications, Service Principals, Managed Identities, Global Secure Access, Administrative Units), Microsoft Entra Identity Protection, Microsoft Authenticator, FIDO2/Passkeys, Microsoft Graph API |
+| **Secrets & Cryptography** | Azure Key Vault, Disk Encryption Sets, OpenSSL |
+| **Data & Storage** | Azure Storage Accounts, Azure SQL Database, PostgreSQL, Cosmos DB, Dynamic Data Masking, Azure Backup, Recovery Services Vault |
+| **Network Security** | Virtual Network, NSG/ASG, Azure Virtual Network Manager (AVNM), Virtual WAN, S2S/P2S VPN, Azure Firewall Premium, Firewall Policy, Route Tables, Private Link/Private Endpoints, Private DNS, Load Balancer, Network Watcher, Azure Bastion, Application Gateway WAF, Service Endpoints |
+| **Compute & Hybrid** | Azure Virtual Machines (Trusted Launch/Confidential), Azure Arc, App Service, Function App, Logic Apps, Azure Cache for Redis, ARM Templates |
+| **Containers** | Azure Kubernetes Service (AKS), Azure Container Registry (ACR), Azure Container Instances (ACI), Azure Container Apps (ACA) |
+| **AI & Generative AI Security** | Microsoft 365 Copilot, Microsoft Copilot Studio, Azure AI Foundry, Azure OpenAI, Azure AI Content Safety, Microsoft Purview (Information Protection, DSPM, Audit), AI Gateway in Azure API Management |
+| **Cloud & Workload Protection** | Microsoft Defender for Cloud (CSPM, Attack Paths, Secure Score, Agentless Scanning, Servers Plan 2, Containers, Storage, Databases, Key Vault, JIT, FIM, Defender Vulnerability Management, EASM), Microsoft Defender XDR, Microsoft Intune |
+| **SIEM & SOAR** | Microsoft Sentinel, Log Analytics, Azure Monitor Agent (AMA), Data Collection Rules (DCR), KQL, Azure Resource Graph, Automation Rules, Logic Apps (Playbooks) |
+| **Security Copilot** | Microsoft Security Copilot, Workspace, Plugins, Agents, Triage Promptbooks |
 
 
 ## Lab Curriculum
 
-> **Publishing in progress** - this portfolio is released incrementally, **2 labs per weekday (Mon-Fri)**. Check back daily to follow the build-out of each security domain.
-
-### Domain 01: Identity, Access & Governance [Completed ✅]
+### Domain 01: Identity, Access & Governance
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 01 | Privileged Identity Management (PIM) | Just-In-Time Access |
@@ -58,7 +62,7 @@ The following Azure services were utilized to architect the security controls in
 | 11 | RBAC & Governance | Compliance |
 | 12 | Backup, Locks & IaC Security | Data Resiliency |
 
-### Domain 02: Storage, Databases & Networking [Completed ✅]
+### Domain 02: Storage, Databases & Networking
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 13 | Storage Account Security | Data-at-Rest Protection |
@@ -74,7 +78,7 @@ The following Azure services were utilized to architect the security controls in
 | 23 | Azure Firewall Premium | Traffic Inspection |
 | 24 | Network Watcher Diagnostics | Observability/Forensics |
 
-### Domain 03: Secure Compute & AI Workload Security [Completed ✅]
+### Domain 03: Secure Compute & AI Workload Security
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 25 | Securing Microsoft 365 Copilot (Purview & DSPM) | DSPM/Purview Controls |
@@ -91,7 +95,7 @@ The following Azure services were utilized to architect the security controls in
 | 36 | ACR, Container Instances & Apps | Container Supply Chain |
 | 37 | App Platform Security (WAF/APIM/VNet) | App Perimeter |
 
-### Domain 04: Security Posture, Threat Protection & SecOps [Completed ✅]
+### Domain 04: Security Posture, Threat Protection & SecOps
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 38 | Defender CSPM & Attack Paths | Risk/Posture |
