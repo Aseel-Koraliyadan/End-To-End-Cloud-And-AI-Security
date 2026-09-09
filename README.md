@@ -91,12 +91,13 @@ The following Azure services were utilized to architect the security controls in
 | 36 | ACR, Container Instances & Apps | Container Supply Chain |
 | 37 | App Platform Security (WAF/APIM/VNet) | App Perimeter |
 
-### Domain 04: Security Posture, Threat Protection & SecOps [In Progress (3/12)]
+### Domain 04: Security Posture, Threat Protection & SecOps [In Progress (4/12)]
 | Lab # | Lab Name | Focus Area |
 | :--- | :--- | :--- |
 | 38 | Defender CSPM & Attack Paths | Risk/Posture |
 | 39 | Compliance & Security Frameworks | NIST/PCI-DSS |
 | 40 | Defender Workload Protection | FIM/JIT |
+| 41 | Defender Vulnerability Management & EASM | Attack Surface |
 
 ## Roadmap: Automation & Infrastructure as Code (IaC)
 While the labs in this repository were initially architected via the Azure Portal for learning and validation purposes, the next phase of this project involves transforming these implementations into fully automated solutions:
