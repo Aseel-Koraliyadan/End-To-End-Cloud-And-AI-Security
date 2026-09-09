@@ -1,0 +1,12 @@
+[
+  {
+    "TimeGenerated": "2026-08-07T14:00:00Z",
+    "EventType": "AccessRequest",
+    "UserPrincipalName": "john.doe@contoso.com",
+    "Action": "ViewSalaryRecord",
+    "TargetResource": "Employee/12345",
+    "SourceIP": "10.0.1.50",
+    "Result": "Success",
+    "AdditionalDetails": "Viewed own salary record"
+  }
+]
